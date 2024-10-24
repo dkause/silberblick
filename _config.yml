@@ -22,7 +22,7 @@ title: SILBERBLICK einfach gute Fotos
 email: d.g.kause@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portraitfotos für Business und Beruf, einfach, schnell und professionell. Im Studio oder vor Ort von Profi Fotograf Daniel Kause.
-baseurl: 'https://silberblick.net' # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: dkause
