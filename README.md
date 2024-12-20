@@ -18,8 +18,8 @@ As a user I need portrait photos for my application, cv or website.
 
 ### User Stories
 As a User I want to find a photographer nearby.  
-As a User I want to see if the photographer has the right style and offer.
-As a User I want to get in contact with photographer.
-As a User I want to see the next free appointment.
-As a User I want to know about the price and scope of service  
+As a User I want to see if the photographer has the right style and offer.  
+As a User I want to get in contact with photographer.  
+As a User I want to see the next free appointment.  
+As a User I want to know about the price and scope of service.    
 
