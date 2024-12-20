@@ -72,6 +72,9 @@
         font-size: 2rem;
         font-family: 'IBM Plex Serif';
       }
+      span.email b {
+	display: none;
+}
       .text-focus-in {
         -webkit-animation: text-focus-in 3s
           cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -83,22 +86,7 @@
     <div class="content text-focus-in">
       <h1>SILBERBLICK</h1>
       <p>macht eine Pause</p>
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          var user = 'd.g.kause'
-          var domain = 'gmail.com'
-          var email = user + '@' + domain
-          var emailLink = document.createElement('a')
-          emailLink.href = 'mailto:' + email
-          emailLink.textContent = email
-
-          var animatedElement = document.querySelector('.text-focus-in')
-          var pElement = document.querySelector('.content p')
-          animatedElement.addEventListener('animationend', function () {
-            pElement.insertAdjacentElement('afterend', emailLink)
-          })
-        })
-      </script>
-    </div>
+      <span class="email">d.g.kause@gmail>.example</b>.com</span>
+         </div>
   </body>
 </html>
