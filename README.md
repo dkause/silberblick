@@ -1,12 +1,11 @@
 # SILBERBLICK Portfolio Site
-Website for my work as a photographer running jekyll for content management with markdown files and using a template.
+Website for my work as a photographer, adding booking calendar, branded filetransfer and photoselection functionality step by step.
 
 ## Table of Contents
 - [Scope](#scope)
 - [Problem Statement](#problem-statement)
 - [User Stories](#user-stories)
-- [Tasks](#tasks)
-- [Contact](#contact)
+
   
 **SCOPE**  
 Different pages inform the User:
@@ -24,10 +23,3 @@ As a User I want to get in contact with photographer.
 As a User I want to see the next free appointment.
 As a User I want to know about the price and scope of service  
 
-### Tasks
-
-**TEQ**
-- [ ] install jekyll  
-- [ ] test jekyll  
-- [ ] install jekyll-template with masonry and isotope  
-- [ ] test template  
