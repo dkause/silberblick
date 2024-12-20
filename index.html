@@ -47,17 +47,17 @@
         text-align: center;
         background-color: black;
         color: silver;
-            height: 100vh;
-  margin: 0;
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  padding-top: 55vh;
-  box-sizing: border-box;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding-top: 55vh;
+        box-sizing: border-box;
       }
       .content {
-  transform: translateY(-50%);
-}
+        transform: translateY(-50%);
+      }
       h1 {
         font-size: 7rem; 
         font-family: 'Outfit';
@@ -88,8 +88,9 @@
           emailLink.textContent = email
 
           var animatedElement = document.querySelector('.text-focus-in');
+          var pElement = document.querySelector('.content p');
           animatedElement.addEventListener('animationend', function() {
-            document.body.appendChild(emailLink);
+            pElement.appendChild(emailLink);
           });
         });
       </script>
