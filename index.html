@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=IBM+Plex+Serif:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=IBM+Plex+Serif:wght@400;700&display=swap" rel="stylesheet" />
     <title>SILBERBLICK</title>
     <style>
       /* ----------------------------------------------
@@ -52,18 +49,17 @@
         color: silver;
       }
       h1 {
-        font-size:7rem; 
+        font-size: 7rem; 
         font-family: 'Outfit';
         font-weight: 300;
         letter-spacing: 0.2em;
       }
       p {
-        font-size:3rem; 
+        font-size: 3rem; 
         font-family: 'IBM Plex Serif';
       }
       .text-focus-in {
-        -webkit-animation: text-focus-in 3s
-          cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        -webkit-animation: text-focus-in 3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
         animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
       }
     </style>
@@ -80,11 +76,12 @@
           var emailLink = document.createElement('a')
           emailLink.href = 'mailto:' + email
           emailLink.textContent = email
-        setTimeout(function () {
-            document.body.appendChild(emailLink)
-        }, 4000)
-          document.body.appendChild(emailLink)
-        })
+
+          var animatedElement = document.querySelector('.text-focus-in');
+          animatedElement.addEventListener('animationend', function() {
+            document.body.appendChild(emailLink);
+          });
+        });
       </script>
     </div>
   </body>
