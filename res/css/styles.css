@@ -1,0 +1,22 @@
+/* Typography */
+p {
+  font-family: 'IBM Plex Serif';
+}
+
+/* Masonry*/
+:root {
+  --masonry-width: 18%;
+}
+/* fluid 5 columns */
+.grid-sizer {
+width: var(--masonry-width)
+} 
+.grid-item {
+  float: left;
+  width: var(--masonry-width);
+  padding: 0.5%;
+}
+/* 2 columns */
+.grid-item--width2 {
+width: calc(var(--masonry-width) * 2);
+}
