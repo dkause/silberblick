@@ -1,6 +1,13 @@
 /* Typography */
+
+/* Setze IBM Plex Sans als Standard-Schriftart für alle Elemente */
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Überschreibe die Schriftart für p-Elemente */
 p {
-  font-family: 'IBM Plex Serif';
+  font-family: 'IBM Plex Serif', serif;
 }
 
 /* Masonry*/
